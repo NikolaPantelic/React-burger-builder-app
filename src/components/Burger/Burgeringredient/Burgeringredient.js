@@ -4,14 +4,14 @@ import styles from "./Burgeringredient.module.css";
 
 class Burgeringredient extends Component {
     render() {
-        let ingridient = null;
+        let ingredient = null;
 
         switch (this.props.type) {
             case ("bread-bottom"):
-                ingridient = <div className={styles.BreadBottom}/>;
+                ingredient = <div className={styles.BreadBottom}/>;
                 break;
             case ("bread-top"):
-                ingridient = (
+                ingredient = (
                     <div className={styles.BreadTop}>
                         <div className={styles.Seeds1}/>
                         <div className={styles.Seeds2}/>
@@ -19,22 +19,22 @@ class Burgeringredient extends Component {
                 );
                 break;
             case ("meat"):
-                ingridient = <div className={styles.Meat}/>;
+                ingredient = <div className={styles.Meat}/>;
                 break;
             case ("bacon"):
-                ingridient = <div className={styles.Bacon}/>;
+                ingredient = <div className={styles.Bacon}/>;
                 break;
             case ("salad"):
-                ingridient = <div className={styles.Salad}/>;
+                ingredient = <div className={styles.Salad}/>;
                 break;
             case ("cheese"):
-                ingridient = <div className={styles.Cheese}/>;
+                ingredient = <div className={styles.Cheese}/>;
                 break;
             default:
-                ingridient = null;
+                ingredient = null;
 
         }
-        return ingridient;
+        return ingredient;
     }
 }
 
