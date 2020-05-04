@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d2b962-0062-4309-9c77-58b1ee16d1b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +64,7 @@
       <workItem from="1585494515051" duration="33671000" />
       <workItem from="1586962938076" duration="20031000" />
       <workItem from="1587493875992" duration="44000" />
+      <workItem from="1587976633539" duration="8206000" />
     </task>
     <servers />
   </component>
